@@ -1,7 +1,6 @@
 {
-  "name": "crowd-funding",
+  "name": "techblog",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,5 +24,14 @@
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsisomphane/Tech-Blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsisomphane/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/bsisomphane/Tech-Blog#readme",
+  "description": ""
 }
