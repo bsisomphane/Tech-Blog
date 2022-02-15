@@ -1,7 +1,7 @@
 var inactivityTime = function () {
   var time;
   window.onload = resetTimer;
-
+  // DOM Events
   document.onmousemove = resetTimer;
   document.onkeypress = resetTimer;
 
@@ -11,7 +11,8 @@ var inactivityTime = function () {
 
   function resetTimer() {
     clearTimeout(time);
-    time = setTimeout(logoutMeOut, 500000);
+    time = setTimeout(logoutMeOut, 600000);
+    // 1000 milliseconds = 1 second
   }
 };
 
